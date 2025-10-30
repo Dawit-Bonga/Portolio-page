@@ -2,7 +2,7 @@ import Image from "next/image";
 import { ProjectsSection } from "../components/projects-section";
 import { AboutSection } from "../components/about-section";
 import { ContactSection } from "../components/contact-section";
-import { StockTicker } from "../components/stock-ticker";
+// import { StockTicker } from "../components/stock-ticker";
 
 export default function Home() {
   return (

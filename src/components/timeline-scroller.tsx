@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 
 interface TimelineMilestone {
   id: string;
@@ -112,7 +112,7 @@ export function TimelineScroller() {
           
           {/* Timeline Items */}
           <div className="relative flex overflow-x-auto pb-8 space-x-8 snap-x snap-mandatory">
-            {placeholderMilestones.map((milestone, index) => (
+            {placeholderMilestones.map((milestone) => (
               <div
                 key={milestone.id}
                 className="flex-shrink-0 w-80 snap-center"
